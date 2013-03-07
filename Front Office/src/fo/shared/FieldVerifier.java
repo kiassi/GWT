@@ -1,4 +1,4 @@
-package bo.shared;
+package fo.shared;
 
 /**
  * <p>

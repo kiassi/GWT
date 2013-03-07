@@ -8,17 +8,17 @@
   <!-- Servlets -->
   <servlet>
     <servlet-name>greetServlet</servlet-name>
-    <servlet-class>bo.server.GreetingServiceImpl</servlet-class>
+    <servlet-class>fo.server.GreetingServiceImpl</servlet-class>
   </servlet>
   
   <servlet-mapping>
     <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/back_office/greet</url-pattern>
+    <url-pattern>/front_office/greet</url-pattern>
   </servlet-mapping>
   
   <!-- Default page to serve -->
   <welcome-file-list>
-    <welcome-file>Back_Office.html</welcome-file>
+    <welcome-file>Front_Office.html</welcome-file>
   </welcome-file-list>
 
 </web-app>

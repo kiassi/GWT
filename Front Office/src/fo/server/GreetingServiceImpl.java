@@ -1,7 +1,7 @@
-package bo.server;
+package fo.server;
 
-import bo.client.GreetingService;
-import bo.shared.FieldVerifier;
+import fo.client.GreetingService;
+import fo.shared.FieldVerifier;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 /**
